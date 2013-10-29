@@ -1,3 +1,5 @@
+/******** Default Layout Formatting *********/
+
 body{
 	background-image:url("mochaGrunge_@2XV2.png");
 	min-width: 960px;
@@ -13,8 +15,6 @@ header{
 	margin-top: 0;
 	overflow: auto;
 }
-
-/******** Default Layout Formatting *********/
 
 /*******		BUTTON      *************/
 .nav{
@@ -33,6 +33,7 @@ header{
 	position: relative;
 	text-align: center;
 }
+
 .nav ul li{
 	display: block;
 	float: left;
@@ -78,70 +79,9 @@ header{
 }
 
 
-/*******      Social Links    **********/
+/*******     Links    **********/
 
-.SocialLinks{
-	/* Para1Aside Specific Formatting  */
-	list-style: none;
-	font-size: 13px;
-	font-weight: lighter;
-	font-style: normal;
-	float:right;
-	background: none;
-	border-left: 1px solid gray;
-	height: 700px;
-	margin-top: 1%;
-	margin-right: 0%;
-	padding: 5px;
-	width: 7%;
-	position: fixed;
-	top: 5%;
-	right: -3%;
-}
-.SocialLinks:hover{
-	right: 0%;
-}
-
-
-.home{
-	overflow: auto;
-	text-align: center;
-	margin: 2% 30%;
-	background: none;
-	border-top:1px solid gray;
-	border-bottom: 1px solid gray;
-	font-size: 15px;
-
-}
-
-
-.homeTitle{
-	font-size: 30px;
-}
-
-.mainBodyContent{
-	font-size: 15px;
-}
-
-.homeWidget{
-	text-align: left;
-	font-weight: lighter;
-	font-style: normal;
-	float:left;
-	background: none;
-	height: 700px;
-	margin-top: 0%;
-	margin-right: 0%;
-	padding: 5px;
-	padding-top: 14%;
-	width: 25%;
-	position: fixed;
-	top: 0%;
-	left: 1%;
-	line-height: 40px;
-}
-
-.LeftLinksList{
+.LeftLinks{
 	text-align: center;
 	list-style: none;
 	font-weight: lighter;
@@ -150,20 +90,35 @@ header{
 	background: none;
 	border-right: 1px solid gray;
 	height: 700px;
-	margin-top: 1%;
-	margin-right: 0%;
+	margin-top: 50px;
 	padding: 5px;
 	width: 150px;
-	position: relative;
+	position: fixed;
 	top: 5%;
 	left: 0%;
 	line-height: 40px;
 	display: block;
 }
 
-.LeftLinksList:hover{LeftLinksList
-	left: 0%;
+.RightLinks{
+	text-align: center;
+	list-style: none;
+	font-weight: lighter;
+	font-style: normal;
+	float:right;
+	background: none;
+	border-left: 1px solid gray;
+	height: 700px;
+	margin-top: 50px;
+	padding: 5px;
+	width: 100px;
+	position: fixed;
+	top: 5%;
+	right: 0%;
+	line-height: 40px;
+	display: block;
 }
+
 
 /******** End Default Layout Formatting *********/
 
