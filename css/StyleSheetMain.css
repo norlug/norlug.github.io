@@ -1,14 +1,21 @@
 /******** Default Layout Formatting *********/
 
 body{
-	background-image:url("mochaGrunge_@2XV2.png");
+	/*background-image:url("mochaGrunge_@2XV2.png");*/
+	background: rgb(209, 209, 209);
 	min-width: 960px;
-	font-family: 'Times New Roman', sans-serif, Courier, Times, serif; 	
-	color: black;
+	font-family: 'Roboto','Times New Roman', sans-serif; 	
+	font-size: 12pt;
+	color: rgb(59,59,59);
 	padding: 0;
-	margin: 0;	
+	margin: 0px;	
 	overflow-y: scroll;
 }
+
+h1,h2,h3,h4{
+	margin: 0px;
+}
+
 
 header{
 	margin-bottom: 0;
@@ -80,6 +87,11 @@ header{
 
 
 /*******     Links    **********/
+
+.logo{
+	position: relative;
+	overflow: hidden;
+}
 
 .LeftLinks{
 	text-align: center;
@@ -160,6 +172,40 @@ header{
 	border: none;
 	margin-left: 40%;
 	margin-right: 50%;
+}
+
+
+/***************************************
+*		Coffee House Coders		       */
+
+
+
+.CHC{
+    background-color: white;
+    margin: 15px 300px 20px;
+    padding: 10px;
+    overflow: auto;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    }
+
+.cardContent{
+	margin: 0px;
+}
+
+.cardHeader{
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px -10px;
+}
+
+.Address{
+	margin-top: 20px;
+}
+.externalWebImg{
+    border: 1px solid rgb(136, 136, 136);
+    float: right;
 }
 
 
