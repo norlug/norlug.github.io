@@ -176,11 +176,11 @@ header{
 
 
 /***************************************
-*		Coffee House Coders		       */
+*		Card Layout	       */
 
 
 
-.CHC{
+.cardLayout{
     background-color: white;
     margin: 15px 300px 20px;
     padding: 10px;
@@ -206,6 +206,28 @@ header{
 .externalWebImg{
     border: 1px solid rgb(136, 136, 136);
     float: right;
+}
+
+/***************************************
+*		Contact Page	       */
+
+.contactList{
+	list-style: none;
+	border-left: 1px solid gray;
+	height: 700px;
+	margin-top: 50px;
+	padding: 5px;
+	top: 5%;
+	position: relative;
+	right: 250px;
+	line-height: 40px;
+	display: block;
+}
+
+.contactItem{
+	font-size: 60px;
+	height: 115px;
+	text-align: right;
 }
 
 
