@@ -3,12 +3,13 @@
 body{
 	/*background-image:url("mochaGrunge_@2XV2.png");*/
 	background: rgb(209, 209, 209);
-	min-width: 960px;
+	max-width: 950px;
+	min-width: 940px;
 	font-family: 'Roboto','Times New Roman', sans-serif; 	
 	font-size: 12pt;
 	color: rgb(59,59,59);
-	padding: 0;
-	margin: 0px;	
+	padding: 10px;
+	margin: 0px auto;	
 	overflow-y: scroll;
 }
 
@@ -29,6 +30,7 @@ header{
 	overflow: hidden;
 	position: relative;
 	width: auto;
+	min-width: 940px;
 }
 
 .nav ul{
@@ -59,7 +61,7 @@ header{
 	font-family: Courier;
 	font-size: 20px;
 	line-height: 38px;
-	padding: 0 50px;
+	padding: 0 40px;
 	text-decoration: none;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
 	text-transform: uppercase;
@@ -187,7 +189,7 @@ header{
 
 .cardLayout{
     background-color: white;
-    margin: 15px 300px 20px;
+    margin: 15px 0px 20px;
     padding: 10px;
     overflow: auto;
     box-shadow: 0px 2px 3px rgb(153, 153, 153);
@@ -225,7 +227,7 @@ header{
 .welcomePageBlogTitle{
 	text-align: center;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 20	px;
 }
 
 /***************************************
