@@ -4,20 +4,10 @@ layout: default
 
 <div>
     <aside>
-        <ul class = "LeftLinks">
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Meeting &lt;Date&gt;</a></li>
-        </ul>   
+        <ul class="LeftLinks">
+            {% for post in site.posts %}
+                <li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a> </li>
+            {% endfor %}
+        </ul>  
      </aside> 
 </div>
