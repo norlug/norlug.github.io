@@ -4,6 +4,17 @@ layout: default
 
 <div>
     <aside>
+        <ul class="LeftLinks">
+            {% for post in site.posts %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
+            {% endfor %}
+        </ul>  
+     </aside> 
+</div>
+
+<!--
+<div>
+    <aside>
         <ul class = "LeftLinks">
         	<p class="blogTitles"> Blog </p>
             <li><a href="http://www.google.com">Blog Title &lt;Date&gt;</a></li>
@@ -20,3 +31,4 @@ layout: default
         </ul>   
      </aside> 
 </div>
+-->
