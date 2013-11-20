@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<div>
+    <aside>
+        <ul class="LeftLinks">
+            {% for post in site.posts %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
+            {% endfor %}
+        </ul>  
+     </aside> 
+</div>
 
 <section class="cardLayout">
         <h3 class="cardHeader date"> {{ page.date | date_to_string }} </h3>
