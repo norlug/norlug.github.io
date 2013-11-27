@@ -6,29 +6,28 @@ layout: default
     <aside>
         <ul class="LeftLinks">
             {% for post in site.posts %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
+                {% if post.category == "blog" %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
+                {% endif %}
             {% endfor %}
         </ul>  
      </aside> 
 </div>
 
-<!--
+
 <div>
-    <aside>
-        <ul class = "LeftLinks">
-        	<p class="blogTitles"> Blog </p>
-            <li><a href="http://www.google.com">Blog Title &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Blog Title &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Blog Title &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">Blog Title &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">View All</a></li>
-            <p class="blogTitles"> News </p>
-            <li><a href="http://www.google.com">News Title &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">News Title &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">News Title &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">News Title &lt;Date&gt;</a></li>
-            <li><a href="http://www.google.com">View All</a></li>
-        </ul>   
-     </aside> 
+        <ul>
+            {% for post in site.posts %}
+                {% if post.category == "blog" %}
+                <li class="blogLanding">
+                    <section class="cardLayout">
+                        <h3 class="cardHeader date">{{ post.date | date_to_string }} </h3>
+                        <p class="cardContent">
+                        <p class="postTitle" > {{ post.title }} </p> {{ post.content }}    
+                        <p class="cardFooter"> {{ post.author }}</p>
+                    </section>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>  
 </div>
--->
