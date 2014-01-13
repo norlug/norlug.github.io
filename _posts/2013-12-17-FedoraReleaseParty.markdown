@@ -1,7 +1,7 @@
 ---
-layout: blogTemplate
+layout: meetingTemplate
 title:  "Fedora 20 Release Party"
-category: "meeting"
+category: "meetings"
 author: "Marc Thomas"
 date:   2013-12-17 12:00:00
 ---

@@ -1,7 +1,7 @@
 ---
-layout: blogTemplate
+layout: meetingTemplate
 title:  "Pizza and Planning"
-category: "meeting"
+category: "meetings"
 author: "Marc Thomas"
 date:   2014-1-9 12:00:00
 ---
