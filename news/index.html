@@ -20,11 +20,10 @@ layout: default
             {% for post in site.posts %}
                 {% if post.category == "news" %}
                 <li class="blogLanding">
-                    <section class="cardLayout">
-                        <h3 class="cardHeader date">{{ post.date | date_to_string }} </h3>
-                        <p class="cardContent">
-                        <p class="postTitle" > {{ post.title }} </p> {{ post.content }}    
-                        <p class="cardFooter"> {{ post.author }}</p>
+                    <section class="card">
+                        <h3 class="header left">{{ post.date | date_to_string }} </h3>
+                        <p class="content">
+                        <p class="content title" > {{ post.title }} </p> {{ post.content }}    
                     </section>
                 </li>
                 {% endif %}

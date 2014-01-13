@@ -14,10 +14,8 @@ layout: default
      </aside> 
 </div>
 
-<section class="cardLayout">
-        <h3 class="cardHeader date"> {{ page.date | date_to_string }} </h3>
-        <p class="cardContent">
-        <p class="postTitle" > {{ page.title }} </p>
-        {{ content }}
-        <p class="cardFooter"> {{ page.author }}</p>
+<section class="card">
+        <h3 class="header left"> {{ page.date | date_to_string }} </h3>
+        <p class="content title" > {{ page.title }} </p>
+        <p class="content"> {{ content }} </p>
 </section>
