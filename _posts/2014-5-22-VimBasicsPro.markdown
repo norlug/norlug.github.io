@@ -14,4 +14,5 @@ Did you know vim could perform magic? Well, maybe not actual magic, but what it 
 We will be meeting at the <a href="https://www.google.com/maps/place/313+1%2F2+Division+St+S/@44.4569015,-93.1596518,17z/data=!3m1!4b1!4m2!3m1!1s0x87f653c708dab4b3:0x7826288e9b2cdb61">SPUR Coworking Space</a> on May 22nd, 2014 at 7:00 p.m.
 
 ---
-<a href="https://plus.google.com/u/0/events/c97s6p34h4ebm82bmm1q7atbtg4?authkey=CJOj-JLgrsi81wE">G+ Event</a>
+<a href="https://plus.google.com/u/0/events/c97s6p34h4ebm82bmm1q7atbtg4?authkey=CJOj-JLgrsi81wE" target="_blank">G+ Event</a>
+
