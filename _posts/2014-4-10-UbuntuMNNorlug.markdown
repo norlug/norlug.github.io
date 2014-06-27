@@ -1,6 +1,6 @@
 ---
 layout: meetingTemplate
-title:  "Norlug + Ubuntu MN Loco"
+title:  "NORLUG + Ubuntu MN Loco"
 category: "news"
 author: "Marc Thomas"
 date:   2014-4-10 12:00:00
