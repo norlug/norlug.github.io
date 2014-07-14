@@ -1,5 +1,5 @@
 ---
-layout: blogTemplate
+layout: newsTemplate
 title:  "Norlug Revival!"
 category: "news"
 date:   2013-11-09 12:00:00
