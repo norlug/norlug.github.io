@@ -1,8 +1,7 @@
 ---
 layout: blogTemplate
 title:  "Norlug Revival!"
-category: "blog"
-author: "Marc Thomas"
+category: "news"
 date:   2013-11-09 12:00:00
 ---
 
