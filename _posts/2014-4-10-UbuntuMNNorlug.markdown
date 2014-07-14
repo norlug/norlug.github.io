@@ -1,5 +1,5 @@
 ---
-layout: meetingTemplate
+layout: newsTemplate
 title:  "NORLUG + Ubuntu MN Loco"
 category: "news"
 author: "Marc Thomas"
