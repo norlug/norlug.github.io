@@ -2,6 +2,7 @@
 layout: newsTemplate
 title:  "Norlug Revival!"
 category: "news"
+author: "Marc Thomas"
 date:   2013-11-09 12:00:00
 ---
 
