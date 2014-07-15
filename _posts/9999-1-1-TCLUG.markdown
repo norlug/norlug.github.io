@@ -1,0 +1,10 @@
+---
+layout: resourceTemplate
+title:  "TCLUG"
+category: "resource"
+---
+The Twin Cities Linux Users Group is a group of Linux users in the Minneapolis, MN area.
+
+<a href="http://www.mn-linux.org/" target="_blank">Website</a>   :   <a href="http://www.mn-linux.org/mailinglists/" target="_blank">Mailing List</a>
+
+IRC: <strong>#tclug</strong> on <strong>irc.freenode.net</strong>
