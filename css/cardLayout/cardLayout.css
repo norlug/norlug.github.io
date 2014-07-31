@@ -10,8 +10,13 @@
     }
 
 .content{ margin: 0px 0px 10px 0px; }
+
 .content.left{ text-align: left; }
-.content.center{ text-align: center; }
+
+.content.center{ 
+    text-align: center; 
+    margin: 0% 5% 10px;
+}
 .content.right{ text-align: right; }
 
 /******************************/
@@ -28,13 +33,13 @@
 .card.left{
     position: relative;
     float: left;
-    max-width: 450px;
+    max-width: 47.5%;
     }
 
 .card.right{
     position: relative;
     float: right;
-    max-width: 450px;
+    max-width: 47.5%;
     }
 
 
@@ -64,14 +69,14 @@
     width: 103%;
     margin: -10px 0px 10px -10px;	
 }
-.header.left{ margin: -10px 0px 10px -10px; }
-.header.center{ margin: -10px 0px 10px 39.5%; }
-.header.right{ margin: -10px 0px 10px 79.6%; }
+.header.left{ margin: -10px auto 10px -10px; }
+.header.center{ margin: -10px auto 10px auto; }
+.header.right{ margin: -10px -10px 10px auto; }
 
 /* Half Width Headers */
-.header.left.half{ margin: -10px 0px 10px -10px; }
-.header.center.half{ margin: -10px 0px 10px 27%; }
-.header.right.half{ margin: -10px 0px 10px 58%; }
+.header.left.half{ margin: -10px auto 10px -10px; }
+.header.center.half{ margin: -10px auto 10px auto; }
+.header.right.half{ margin: -10px -10px 10px auto; }
 
 /*************************/
 /*****    Footers    *****/
@@ -85,20 +90,20 @@
     }
 
 /* Full Width Footers */
-.footer.left{ margin: 10px 0px -10px -10px; }
-.footer.center{ margin: 10px 0px -10px 39.5%; }
-.footer.right{ margin: 10px 0px -10px 79.6%; }
+.footer.left{ margin: 10px auto -10px -10px; }
+.footer.center{ margin: 10px auto -10px auto; }
+.footer.right{ margin: 10px -10px -10px auto; }
 
 
 /* Half Width Footers */
 /* NOT YET SUPPORTED  */
 
 
-.footer.left.half{ margin: 0px 0px 0px -10px; }
+.footer.left.half{ margin: 0px auto 0px -10px; }
 
-.footer.center.half{ margin: 0px 0px -10px 27%; }
+.footer.center.half{ margin: 0px auto -10px auto; }
 
-.footer.right.half{ margin: 0px 0px -10px 57.8%; }
+.footer.right.half{ margin: 0px -10px -10px auto; }
 
 
 /*****************************************/
@@ -113,3 +118,5 @@
 .green{ background-color: rgb(0,180,0); }
 .lightGreen{ background-color: rgb(130,180,0); }
 .darkGreen{ background-color: rgb(0,130,0); }
+
+.clear{clear:both;}

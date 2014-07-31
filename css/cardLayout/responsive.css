@@ -1,0 +1,70 @@
+/* 1920*1080 at half screen */
+@media all and (max-width: 960px){
+
+    .card.left{
+        max-width: 47.25%;
+    }
+
+    .card.right{
+        max-width: 47.25%;
+    }
+
+/*  Nexus 7 2012  */
+@media all and (max-width: 800px){
+
+    .card.left{
+        max-width: 46%;
+    }
+
+    .card.right{
+        max-width: 46%;
+    }
+
+    /* Full Width Headers */
+    .header.full{ 
+        width: 110%;
+        margin: -10px 0px 10px -10px;
+    }
+    
+}
+
+/* 1152 * 864 at half screen */
+@media all and (max-width: 576px){
+    .card.left{
+        max-width: 45.5%;
+    }
+
+    .card.right{
+        max-width: 45.5%;
+    }
+
+/* 1024 * 768 at half screen */
+@media all and (max-width: 512px){
+    .card.left{
+        position: none;
+        float: none;
+        max-width: none;
+    }
+
+    .card.right{
+        position: none;
+        float: none;
+        max-width: none;
+    }
+
+
+/*   Nexus 5   */
+@media all and (max-width: 360px){
+    .card.left{
+        position: none;
+        float: none;
+        max-width: none;
+    }
+
+    .card.right{
+        position: none;
+        float: none;
+        max-width: none;
+    }
+
+}
