@@ -1,0 +1,18 @@
+---
+layout: meetingTemplate
+title:  "Emacs"
+category: "meetings"
+author: "Marc Thomas"
+date:   2014-8-28 12:00:00
+---
+
+<h3>Announcement!</h3>
+
+
+<p>A few months ago we had a great talk on Vim. This month, it's time to talk about the other side of the coin. Michael Domingues, a Linux Systems Administrator at St. Olaf College, will be talking about GNU Emacs, an extensible, customizable text editor.</p>
+
+
+We will be meeting at the <a href="https://www.google.com/maps/place/313+1%2F2+Division+St+S/@44.4569015,-93.1596518,17z/data=!3m1!4b1!4m2!3m1!1s0x87f653c708dab4b3:0x7826288e9b2cdb61">SPUR Coworking Space</a> on August 28th, 2014 at 7:00 p.m.
+
+<a href="https://plus.google.com/u/0/events/cl0nl20n667s4gq4vg5324vpjrg?authkey=CPnvnseE3sz-CQ" target="_blank">G+ Event</a>
+
