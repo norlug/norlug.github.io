@@ -1,7 +1,6 @@
 /******** Default Layout Formatting *********/
 
 body{
-	/*background-image:url("mochaGrunge_@2XV2.png");*/
 	background: rgb(209, 209, 209);
 	max-width: 950px;
 	font-family: 'Roboto','Times New Roman', sans-serif; 	
@@ -17,7 +16,7 @@ h1,h2,h3,h4{
     }
 
 
-mainHeader{
+.mainHeader{
 	margin-bottom: 0;
 	margin-top: 0;
 	overflow: auto;
