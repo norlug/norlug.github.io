@@ -6,6 +6,12 @@ author: "Marc Thomas"
 date:   2014-7-24 12:00:00
 ---
 
+<h3>Meeting Notes!</h3>
+
+<p>With a smaller group this month, we had a very hands on presentation with plenty of great questions and demo's. We learned how to set up very low cost (resource) containers for popular distro's such as Ubuntu, Fedora, SUSE, and even Gentoo! We talked about some of the underlying technologies of LXC and even how it compared with full blown virtualizations like Virtualbox.</p>
+
+<p>We also covered a few recent news items that have happened in the Linux world recently. For future months, we will provide links to those news items in our meeting notes. Lastly, Marc gave a lightning talk on Bedrock Linux, which is a unique alternative to virtualization, but shares many of the same concepts</p>
+
 <h3>Announcement!</h3>
 
 
