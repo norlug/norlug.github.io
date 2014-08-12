@@ -6,54 +6,50 @@
         <link rel="stylesheet" href="/css/StyleSheetMain.css">
         <link rel="stylesheet" href="/css/cardLayout/cardLayout.css">
         <link rel="stylesheet" href="/css/cardLayout/responsive.css">
-        <meta name="viewport" content="initial-scale=1">
+        <link rel="stylesheet" href="/css/cardLayout/cardMenu.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <header>
-            <div class="nav">
-                <ul>
-                    <li><a href="/" title="Home">Home</a></li>
-                    <li><a href="/meetings" title="Technical">Meetings</a></li>
-                    <li><a href="/coffeehousecoders" title="CoffeeHouseCoders">Coffee house Coders</a></l1>
-                    <li><a href="/news" title="news">News</a></li>   
-                    <li><a href="/resources" title="resources">Resources</a></li>   
-                </ul>
-            </div>
         </header>
-            <div class="wrapper">
-                <div class="container">
-                    <div class="site">
-                        <div class="mainHeader">
-                            {{ content }}
-                        </div>
-
-                        <aside>
-                            <ul class="RightLinks">
-			                    <li> 
-                                    <a href="/">
-                                    <img src="/icons/Tux-Cowboy.png" alt="NORLUG" title="NORLUG"/></a>				
-                                </li>
-                                <li>
-                                    <a href="/mailinglist" target="_blank">
-                                    <img src="/icons/Tux-Gmail.png" alt="Mailing List" title="Mailing List"/></a>
-                                </li>
-                                <li>
-                                    <a href="/g+" target="_blank">
-                                    <img src="/icons/Tux-G+.png" alt="GooglePlus" title="Google+"/></a>
-                                </li>
-                                <li>
-                                    <a href="/twitter" target="_blank">
-                                    <img src="/icons/Tux-Twitter.png" alt="Twitter" title="Twitter"/></a>
-                                </li>
-                                <li>
-                                    <a href="/github" target="_blank">
-                                    <img src="/icons/githubcracked.png" alt="Github" title="Github"/></a>
-                                </li>
-                            </ul>
-                        </aside> 
-                    </div> <!-- site -->
-                </div> <!-- /container -->
-            </div> <!-- /wrapper -->
-        <div class="push"></div>
+        <div class="wrapper">
+            <div class="container">
+                <div class="site">
+                    <div class="mainHeader">
+                        {{ content }}
+                    </div>
+                </div> <!-- site -->
+            </div> <!-- /container -->
+        </div> <!-- /wrapper -->
+        <nav id="bt-menu" class="bt-menu">
+            <a href="" class="bt-menu-trigger"><span>Menu</span></a>
+            <ul>
+                <li><a href="/" title="Home">Home</a></li>
+                <li><a href="/meetings" title="Technical">Meetings</a></li>
+                <li><a href="/coffeehousecoders" title="CoffeeHouseCoders">Coders</a></li>
+                <li><a href="/news" title="news">News</a></li>   
+                <li><a href="/resources" title="resources">Resources</a></li>   
+            </ul>
+            <ul>
+                <li>
+                    <a href="/mailinglist" target="_blank">
+                    <img src="/icons/Tux-Gmail.png" width="50" height="50" alt="Mailing List" title="Mailing List"/></a>
+                </li>
+                <li>
+                    <a href="/g+" target="_blank">
+                    <img src="/icons/Tux-G+.png" width="50" height="50" alt="GooglePlus" title="Google+"/></a>
+                </li>
+                <li>
+                    <a href="/twitter" target="_blank">
+                    <img src="/icons/Tux-Twitter.png" width="50" height="50" alt="Twitter" title="Twitter"/></a>
+                </li>
+                <li>
+                    <a href="/github" target="_blank">
+                    <img src="/icons/githubcracked.png" width="50" height="50" alt="Github" title="Github"/></a>
+                </li>
+            </ul>
+        </nav>
     </body>
+    <script src="/css/cardLayout/js/classie.js"></script>
+    <script src="/css/cardLayout/js/borderMenu.js"></script>
 </html>
