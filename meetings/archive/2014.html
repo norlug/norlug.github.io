@@ -2,25 +2,15 @@
 layout: default
 ---
 
-<p class="welcomePageHeaders">Meetings</p>				
+<p class="welcomePageHeaders">Archive - Meetings 2014</p>				
 <hr>
-
-<!--
 <div>
-    <aside>
-        <ul class="LeftLinks">
-            {% for post in site.posts %}
-                {% if post.category == "meetings" %}
-                    {% assign year={{post.date | date: "%Y"}} %} 
-                    {% if year == "2014" %} 
-                        <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
-                    {% endif %}
-                {% endif %}
-            {% endfor %}
-        </ul>  
-     </aside> 
+        <li class="blogLanding">
+            <section class="card">
+                <p class="content title"><a href="../index.html">Back To Current Year</a></p> 
+            </section>
+        </li>
 </div>
--->
 
 <div>
         <ul>
@@ -40,21 +30,11 @@ layout: default
             {% endfor %}
         </ul>  
 </div>
-        
-<!--
-<div>
-        <li class="blogLanding">
-            <section class="card">
-                <p class="content title"><a href="archive/2014.html">Archive - 2014</a></p> 
-            </section>
-        </li>
-</div>
--->
 
 <div>
         <li class="blogLanding">
             <section class="card">
-                <p class="content title"><a href="archive/2013.html">Archive - 2013</a></p> 
+                <p class="content title"><a href="../index.html">Back To Current Year</a></p> 
             </section>
         </li>
 </div>
