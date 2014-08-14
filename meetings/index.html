@@ -5,23 +5,6 @@ layout: default
 <p class="welcomePageHeaders">Meetings</p>				
 <hr>
 
-<!--
-<div>
-    <aside>
-        <ul class="LeftLinks">
-            {% for post in site.posts %}
-                {% if post.category == "meetings" %}
-                    {% assign year={{post.date | date: "%Y"}} %} 
-                    {% if year == "2014" %} 
-                        <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
-                    {% endif %}
-                {% endif %}
-            {% endfor %}
-        </ul>  
-     </aside> 
-</div>
--->
-
 <div>
         <ul>
             {% for post in site.posts %}
