@@ -11,10 +11,18 @@ body{
 	overflow-y: scroll;
     }
 
-h1,h2,h3,h4{
-	margin: 0px;
-    }
 
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+}
 
 .mainHeader{
 	margin-bottom: 0;
