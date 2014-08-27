@@ -44,12 +44,14 @@
         position: none;
         float: none;
         max-width: none;
+        box-sizing: content-box;
     }
 
     .card.right{
         position: none;
         float: none;
         max-width: none;
+        box-sizing: content-box;
     }
 
 
@@ -59,12 +61,14 @@
         position: none;
         float: none;
         max-width: none;
+        box-sizing: content-box;
     }
 
     .card.right{
         position: none;
         float: none;
         max-width: none;
+        box-sizing: content-box;
     }
 
 }
