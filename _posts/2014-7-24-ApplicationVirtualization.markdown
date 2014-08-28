@@ -12,8 +12,8 @@ date:   2014-7-24 12:00:00
 
 <p>We also covered a few recent news items that have happened in the Linux world recently. For future months, we will provide links to those news items in our meeting notes. Lastly, Marc gave a lightning talk on Bedrock Linux, which is a unique alternative to virtualization, but shares many of the same concepts</p>
 
+---
 <h3>Announcement!</h3>
-
 
 <p>You gotta keep 'em separated! For this months meeting, Adam will be talking about the benefits of using application virtualization, and how to implement virtualization in your own apps.</p>
 
