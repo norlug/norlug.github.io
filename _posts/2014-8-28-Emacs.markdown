@@ -6,6 +6,11 @@ author: "Marc Thomas"
 date:   2014-8-28 12:00:00
 ---
 
+<h3>Meeting Notes!</h3>
+<p>Last night, we had a great presentation on Emacs including some history, touching on the editor wars, and of course diving into using Emacs. There was talk of macro's, butterfly's and tramps. We also talked about some of the latest events in the Linux-verse and had a few short lightning talks on theming in Gnome and setting up JHBuild.</p>
+
+
+---
 <h3>Announcement!</h3>
 
 
