@@ -1,6 +1,5 @@
-/*****************************/
 /*****    Card Basics    *****/
-/*****************************/
+
 .card{
     background-color: white;
     margin: 15px 0px 20px;
@@ -19,17 +18,15 @@
 }
 .content.right{ text-align: right; }
 
-/******************************/
+
 /*****    Blog Presets    *****/
-/******************************/
 .content.title{ text-align: center;
     font-size: 30pt;
     }
 .content.blog{ margin: 0% 15%; }
 
-/*************************************/
+
 /*****    Positioning Layouts    *****/
-/*************************************/
 .card.left{
     position: relative;
     float: left;
@@ -43,9 +40,7 @@
     }
 
 
-/*******************************/
 /*****    Fixed Heights    *****/
-/*******************************/
 .small{ height: 100px; }
 
 .medium{ height: 170px; }
@@ -53,9 +48,7 @@
 .large{ height: 260px; }
 
 
-/*************************/
 /*****    Headers    *****/
-/*************************/
 .header{
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
@@ -78,9 +71,8 @@
 .header.center.half{ margin: -10px auto 10px auto; }
 .header.right.half{ margin: -10px -10px 10px auto; }
 
-/*************************/
+
 /*****    Footers    *****/
-/*************************/
 .footer{
     font-size: 14pt;
     background-color: rgb(37, 77, 37);
@@ -106,11 +98,8 @@
 .footer.right.half{ margin: 0px -10px -10px auto; }
 
 
-/*****************************************/
 /*****          Card Colors          *****/
-/*****************************************/
 /*****         In Development        *****/
-/*****************************************/
 
 .yellow{ background-color: rgb(255,255,0); }
 .lightYellow{ background-color: rgb(255,255,150); }
@@ -120,3 +109,114 @@
 .darkGreen{ background-color: rgb(0,130,0); }
 
 .clear{clear:both;}
+
+
+/*****  Responsive Code  *****/
+
+/* 1920*1080 at half screen */
+@media all and (max-width: 960px){
+
+    .card.left{
+        max-width: 49.5%;
+    }
+
+    .card.right{
+        max-width: 49.5%;
+    }
+    
+    .card.small{
+        height: 120px;
+    }
+    .card.medium{
+        height: 220px;
+    }
+    .card.large{
+        height: 310px;
+    }
+}
+
+/*  Nexus 7 2012  */
+@media all and (max-width: 800px){
+
+    .card.left{
+        max-width: 49.5%;
+    }
+
+    .card.right{
+        max-width: 49.5%;
+    }
+
+    /* Full Width Headers */
+    .header.full{ 
+        width: 110%;
+        margin: -10px 0px 10px -10px;
+    }
+    
+    .card.small{
+        height: 160px;
+    }
+    .card.medium{
+        height: 290px;
+    }
+    .card.large{
+        height: 440px;
+    }
+    
+}
+
+/* 1152 * 864 at half screen */
+@media all and (max-width: 576px){
+    .card.left{
+        max-width: 49.5%;
+    }
+
+    .card.right{
+        max-width: 49.5%;
+    }
+    .card.small{
+        height: 180px;
+    }
+    .card.medium{
+        height: 300px;
+    }
+    .card.large{
+        height: 500px;
+    }
+}
+
+/* 1024 * 768 at half screen */
+@media all and (max-width: 512px){
+    .card.left{
+        position: none;
+        float: none;
+        max-width: none;
+        box-sizing: content-box;
+        height:100%;
+    }
+
+    .card.right{
+        position: none;
+        float: none;
+        max-width: none;
+        box-sizing: content-box;
+        height:100%;
+    }
+}
+
+/*   Nexus 5   */
+@media all and (max-width: 360px){
+    .card.left{
+        position: none;
+        float: none;
+        max-width: none;
+        box-sizing: content-box;
+    }
+
+    .card.right{
+        position: none;
+        float: none;
+        max-width: none;
+        box-sizing: content-box;
+    }
+
+}
