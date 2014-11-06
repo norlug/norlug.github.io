@@ -25,8 +25,8 @@
 
 .bt-menu.bt-menu-open {
     height: 100%;
-    border-width: 0px 0px 50px 150px;
-    background-color: rgba(0,0,0,0.3);
+    border-width: 0px 0px 55px 0px;
+    background-color: rgba(0,0,0,0.2);
     -webkit-transition: border-width 0.3s, background-color 0.3s;
     transition: border-width 0.3s, background-color 0.3s;
 }
@@ -37,7 +37,6 @@
 }
 
 .bt-menu-open .bt-overlay {
-    height: 100%;
 }
 
 .bt-menu-trigger {
@@ -49,8 +48,10 @@
     width: 60px;
     height: 50px;
     cursor: pointer;
-    background-color:white;
-    box-shadow: 0px 2px 3px rgb(153,153,153);
+    background-color: white;
+    box-shadow: 4px 4px 6px rgb(153, 153, 153);
+    border: 1px solid rgb(200,200,200);
+    margin: -5px 0px 0px -7px;
 }
 
 .bt-menu-trigger span {
@@ -96,22 +97,23 @@
 }
 
 .bt-menu-open .bt-menu-trigger{
-    background-color:#333333;
-    box-shadow: none;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
 }
 
 .bt-menu-open .bt-menu-trigger span{
-    background-color: #fff
+    background-color: black;
 }
 
 .bt-menu-open .bt-menu-trigger span:before {
-    background-color: #fff;
+    background-color: black;
     -webkit-transform: translateY(-300%);
     transform: translateY(-300%);
 }
 
 .bt-menu-open .bt-menu-trigger span:after {
-    background-color: #fff;
+    background-color: black;
     -webkit-transform: translateY(300%);
     transform: translateY(300%);
 }
@@ -124,7 +126,7 @@
 }
 
 .bt-menu ul:first-of-type {
-    top: 75px;
+    top: 60px;
     left: 0;
 }
 
@@ -136,6 +138,7 @@
 .bt-menu ul li,
 .bt-menu ul li a {
     display: block;
+    margin: -5px 0px 0px 5px;
 }
 
 .bt-menu ul:nth-of-type(2) li {
@@ -161,8 +164,8 @@
 /* First menu */
 .bt-menu ul:first-of-type li {
     width: 150px;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     -webkit-transform: translate3d(-100%,50%,0);
     transform: translate3d(-100%,50%,0);
 }
@@ -170,6 +173,7 @@
 .bt-menu.bt-menu-open ul:first-of-type li {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+    background: white;
 }
 
 /* Second menu */
@@ -214,17 +218,18 @@
 
 .bt-menu ul:first-of-type li a {
     padding: 0 20px;
-    box-shadow: inset 0 1px rgba(0,0,0,0.2);
-    color: #fff;
+    box-shadow: 2px 2px 6px rgb(153, 153, 153);
+    color: #3B3B3B;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 1em;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
+    margin:10px 0px 0px 0px;
 }
 
 .bt-menu ul:first-of-type li:last-child a {
-    box-shadow: inset 0 1px rgba(0,0,0,0.2), inset 0 -1px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 6px rgb(153, 153, 153);
 }
 
 .bt-menu ul:nth-of-type(2) li a {
