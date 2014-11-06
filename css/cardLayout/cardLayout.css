@@ -25,6 +25,26 @@
     }
 .content.blog{ margin: 0% 15%; }
 
+.post{
+	text-align: left;
+	margin: 0% 15%;
+}
+.post.left{
+	text-align: left;
+}
+.post.center{
+	text-align: center;
+}
+
+.post.right{
+	text-align: right;
+}
+
+.card_list{
+	list-style: none;
+	margin: -1px 0px 0px -40px;
+	padding: 0px;
+}
 
 /*****    Positioning Layouts    *****/
 .card.left{
