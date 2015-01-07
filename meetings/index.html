@@ -21,7 +21,7 @@ layout: default
         {% for post in site.posts %}
             {% if post.category == "meetings" %}
                 {% assign year={{post.date | date: "%Y"}} %} 
-                {% if year == "2014" %} 
+                {% if year == "2015" %} 
                     <li class="card_list">
                         <section class="card">
                             <h3 class="header left">{{ post.date | date_to_string }}</h3>
