@@ -9,7 +9,7 @@ date: 2015-1-29 12:00:00
 <h3>Meeting Notes!</h3>
 There was a lot of interest and enthusiasm with this months topic. Covering everything from privacy and security concerns to self hosted file syncing and media center solutions. There where quite a few jokes thrown around, and an almost failed demo due to a lack of an HDMI -> VGA adapter. There was also a brief lightning talk about the tor network, and the idea of black sites. Very cool stuff all around. Below is a link to the slides from the main presentation.
 
-<a href="resources/2015-29-1-recloudify">Recloudify Your Life - Slides</a>
+<a href="http://oc.mthx.org/owncloud/public.php?service=files&t=3a0e8714057ec89374c71993522371d1">Recloudify Your Life - Slides</a>
 
 ---
 
