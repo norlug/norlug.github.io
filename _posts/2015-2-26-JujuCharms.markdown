@@ -6,6 +6,12 @@ author: "Marc Thomas"
 date: 2015-2-26 12:00:00
 ---
 
+<h3>Meeting Notes!</h3>
+This turned out to be a very unique meeting. Starting with a garage door mishap, and then experimenting doing a live stream for the first time. All in all, a really great talk about some great technologies coming out of Canonical. Thank you Matt for coming up to talk to us. At the end we had a short lightning talk about tiling window managers, and a brief demo of Awesome WM. Below is a link to the slides from the main presentation.
+
+<a href="https://drive.google.com/file/d/0B-z4DtXcFpK2YTNjWWgxb283b00/view?usp=sharing" target="_blank">Juju Charms - Slides</a>
+
+---
 <h3>Announcement!</h3>
 
 Matt Bruzek from Canonical, the company behind Ubuntu,  will be coming to talk to us about Juju charms.
