@@ -1,0 +1,14 @@
+---
+layout: meetingTemplate
+title:  "Vagrant"
+category: "meetings"
+author: "Marc Thomas"
+date: 2015-4-23 12:00:00
+---
+
+<h3>Announcement!</h3>
+This month, we Adam Ness will be talking to us about Vagrant. Vagrant is a computer software for creating and configuring virtual development environments. It can be seen as a wrapper around virtualization software such as VirtualBox, KVM, VMware and around configuration management software such as Ansible, Chef, Salt or Puppet.
+
+We will be meeting at <a href="https://www.google.com/maps/place/313+1%2F2+Division+St+S,+Northfield,+MN+55057/@44.4569015,-93.1596518,17z/data=!3m1!4b1!4m2!3m1!1s0x87f653c708dab4b3:0x7826288e9b2cdb61">SPUR Coworking Space</a> on April 23rd, 2015 at 7:00 pm. Our traditional social hour will follow the meeting at Basils Pizzaria.
+
+<a href="https://plus.google.com/events/c839msibdfhtef3hgsgl00kd7lc?authkey=CP2ky5Pk287FZQ">G+ Event</a>
