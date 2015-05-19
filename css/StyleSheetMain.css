@@ -59,6 +59,15 @@ h2{
 
 /******** End Default Layout Formatting *********/
 
+.responsive-img{
+    width:100%;
+    height: auto;
+    margin: 0px;
+    line-height: 0px;
+    vertical-align: bottom;
+    margin-bottom: 10px;
+}
+
     /* Responsive iFrame */
      
 .responsive-iframe-container {
@@ -84,11 +93,26 @@ h2{
 	margin-top: 20px;
 }
 
+.hideawayInfo{
+    float: left;
+}
+
 .externalWebImg{
     border: 1px solid rgb(136, 136, 136);
     float: right;
 }
 
+@media all and (max-width: 700px){
+    
+    .hideawayInfo{
+        margin-bottom: 10px;
+    }
+
+    .externalWebImg{
+        margin-top: 20px;
+        float: none;
+    }
+}
 
 /* 		END BODY	       *
 ****************************************/
